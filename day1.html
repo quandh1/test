@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>day1</title>
+	<link rel="stylesheet" href="day1.css">
+	<script type="text/javascript">
+		var i = 0;
+		function myFunction(){
+			var x = document.getElementsByTagName("table")[0];
+				x.getElementsByTagName("tr")[i++].style.background="red";
+					}
+	</script>
+</head>
+<body>
+	<table style="width: 70%;margin: auto" id="myTable" >
+		<tr >
+	        <td colspan="2" id="abc"></td>
+	        <td rowspan="3"></td>
+	        <td colspan="2" rowspan="2"></td>
+	        <td colspan="2"></td>
+    	</tr>
+
+    	<tr>
+	        <td></td>
+	        <td></td>
+	        <td></td>
+	        <td></td>
+	     
+    	</tr>
+
+    	<tr>
+	        <td rowspan="2" colspan="2"></td>
+	        <td></td>
+	        <td></td>
+	        <td rowspan="2" colspan="2"></td>
+    	</tr>
+
+    	<tr>
+	        <td></td>
+	        <td></td>
+	        <td></td>
+	        
+    	</tr>
+
+    	<tr>
+	        <td></td>
+	        <td></td>
+	        <td colspan="3" rowspan="2"></td>
+	        <td></td>
+	        <td></td>
+	       
+    	</tr>
+
+    	<tr>
+	        <td></td>
+	        <td></td>
+	        <td></td>
+	        <td></td>  
+    	</tr>
+
+
+
+		
+	</table>
+	<button onclick="myFunction()"> Click</button>
+	
+</body>
+</html>
