@@ -1,0 +1,50 @@
+section{
+	width: 100%;
+	height: auto;
+	background-color: whitesmoke;
+}
+section .fix-section{
+	width: 1150px;
+	height: 100%;
+	margin: auto;
+}
+section .fix-section h2{
+	text-align: center;
+	letter-spacing: 15px;
+	font-size: 30px;
+	padding-top: 25px;
+	padding-bottom: 30px;
+}
+section .fix-section .top-section{
+	width: 100%;
+	height: 100%;
+	background-color: whitesmoke;
+	padding-bottom: 10px;
+}
+section .fix-section .top-section .box{
+	float: left;
+	margin-left: 50px;
+	font-size: 16px;
+}
+section .fix-section .top-section .box:nth-child(1){
+	width: 35%;
+	height: auto;
+}
+section .fix-section .top-section .box:nth-child(2){
+	width: 55%;
+	height: auto;
+}
+section .fix-section .top-section .box img{
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+	position: relative;
+	z-index: 20;
+	border: 6px solid rgba(0, 0, 0, 0.1);
+}
+section .fix-section .top-section .box p{
+	line-height: 40px;
+}
+section .fix-section .top-section .box p:last-child{
+	border: none;
+}

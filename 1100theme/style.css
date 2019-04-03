@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+
+}
+.contentcenter{
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+}
+.banner_top{
+
+    background: url(image/bg.jpg) top center;
+    height: 600px;
+    background-size: cover;
+}
+.column{
+    display: flex;
+}
+.columnone{
+    width: 33.33%;
+}
+.columnone.left{}
+.columnone.left a{
+    padding: 20px 20px;
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+}
+.columnone.left a:hover{
+    color: aqua;
+}
+.columnone.right{
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.columnone.right a{
+    color: white;
+    font-size: 14px;
+    padding: 15px 10px;
+    display: inline-block;
+}
+.columnone.center img{
+    padding-top: 20px;
+    height: 40px;
+}
+
+.columnone.center{
+    text-align: center;
+
+}
+.text_banner{
+    position: absolute;
+    top:30%;
+    color: white;
+
+}
+.content{
+    width: 1170px;
+    margin: auto;
+    padding-left: 50px;
+    padding-top: 50px;
+
+
+}
+.small{}
+.content h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: white;
+    width: 50%;
+    margin-top: 30px;
+}
+.content1{
+    display: flex;
+    font-size: 120%;
+    padding: 100px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content1_left span{
+    font-size: 23px;
+    color: #757575ed;
+}
+.content1_left h2{
+    padding-top: 20px;
+    line-height: 1.5;
+}
+.content1_right{
+    font-size: 23px;
+    color: #757575ed;
+    line-height: 2.2;
+}
+.content2{
+    background: #000;
+}
+.tabmenu1{
+    display: flex;
+    padding: 60px;
+}
+.tabmenu{
+    list-style-type: none;
+}.tabmenu a{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    font-size: 18px;
+}
+.tabmenu a:hover{
+    color:#757575ed;
+}
+.product{
+    display: flex;
+}
+.product_left img{
+    width: 90%;
+}
+.product_right img{
+    width: 90%;
+}

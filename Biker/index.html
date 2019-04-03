@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Xe 3 bánh</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/foter.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+		<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+
+
+
+	<script>
+		$(window).scroll(function() {
+  
+  // selectors
+  var $window = $(window),
+      $body = $('body'),
+      $panel = $('.panel');
+  
+  // Change 33% earlier than scroll position so colour is there when you arrive.
+  var scroll = $window.scrollTop() + ($window.height() / 3);
+ 
+  $panel.each(function () {
+    var $this = $(this);
+    if ($this.position().top <= scroll && $this.position().top + $this.height() > scroll) {
+      $panel.removeClass(function (index, css) {
+        return (css.match (/(^|\s)color-\S+/g) || []).join(' ');
+      });
+      $this.addClass('color-' + $(this).data('color'));
+    }
+  });    
+  
+	}).scroll();
+	</script>
+</head>
+<body>
+	<div class="wapper">
+
+			<div class="top">
+				<div class="fix-top">
+					<ul>
+						<li><a class="fa fa-facebook" href=""></a></li>
+						<li><a class="fa fa-twitter" href=""></a></li>
+						<li><a class="fa fa-youtube" href=""></a></li>
+						<li><a class="fa fa-google-plus" href=""></a></li>
+						<li><a class="fa fa-tumblr" href=""></a></li>
+						<div class="login">
+							<ul>
+								<li><a style="line-height: 45px;" class="fa fa-search" href=""></a></li>
+								<li><a href="">Đăng Nhập</a></li>
+								<li><a href="">Đăng Ký</a></li>
+							</ul>
+						</div>
+					</ul>
+
+				</div>
+			</div>
+
+			<nav>
+				<div class="fix-nav">
+					<div class="logo">
+						<img style="width: 150px;" src="images/s-l300.jpg" alt="">
+					
+					</div>
+					<ul>
+						<li><a href="" title="">TRANG CHỦ</a></li>
+						<li><a href="" title="">GIỚI THIỆU</a></li>
+						<li><a href="" title="">SẢN PHẨM</a></li>
+						<li><a href="" title="">LIÊN HỆ</a></li>
+					</ul>
+				</div>
+			</nav>
+			<div style="clear: both;"></div>
+			<div class="baner">
+
+				<div class="fix-baner">
+					<img src="images/banner.jpg" alt="">
+					<div class="text-baner">
+						<p style="font-size: 27px;">D-bike</p>
+						<p style="font-size: 22px;">Xe 3 bánh cho bé <b>By: IDES</b> Trên 1 tuổi</p>
+						<a href="">Mua Ngay</a>
+						<div style="clear: both;"></div>
+						<div class="ht"><a href="" class="box fa fa-eye"></a></div>	
+						<div class="ht"><a href="" class="box fa fa-star-o"></a></div>
+						<div class="ht"><a href="" class="box fa fa-share-square-o"></a></div>
+						<div class="ht"><a href="" class="box fa fa-shopping-cart"></a></div>
+					</div>
+				</div>
+			</div>
+		<section><div style="clear: both;"></div>
+		<div class="fix-section">
+			<h2>D-BIKE</h2>
+			<div class="top-section">
+				<div class="box">
+				<img src="images/dbm05p.jpg" alt="">
+				</div>
+				<div class="box">
+					<p class="title">
+						Thông tin cân bằng 3 bánh D-Bike
+					</p>
+					<p class="content"><span class="cold">Hãng</span><span>Ides</span></p>
+					<p class="content"><span class="cold">Xuất xứ</span><span>Japan</span></p>
+					<p class="content"><span class="cold">Tuổi</span><span>Trên 1 tuổi và cân nặng tối đa 20kg</span></p>
+					<p class="content"><span class="cold">Kích thước</span><span>Chiều rộng 200 × chiều sâu 47,5 x cao 345mm</span></p>
+				</div>
+				<div  class="fix-clear"></div>
+			</div>
+			<div style="clear: both;"></div>
+			
+			<div  class="fix-clear"></div>
+		</div>
+	</section>
+	
+		<div class="panel" data-color="violet">
+	 		 <div class="fix-article">
+			<div class="box-article">
+				<div class="slide">
+				<img src="images/xe-ad25-2.jpg" alt="">
+				</div>
+			</div>
+			<div class="box-article">
+				<p>Đối với trẻ mới tập đi từ 1-3 tuổi 2 bánh xe ở phía trước nên an toàn để tránh nguy cơ ngã</p>
+			</div>
+			<div  class="fix-clear"></div>
+		 </div>
+			</div>
+
+			<div class="panel" data-color="indigo">
+		 	 	<div class="fix-article">
+					<div class="box-article">
+						<div class="slide">
+						<img src="images/5231153_1_3L.jpg" alt="">
+					</div>
+					</div>
+					<div class="box-article">
+						<p>Khi trẻ mới tập chơi Được trang bị một tay cầm thoải mái, dễ dàng hơn cho trẻ mới biết đi giữ nó và không trơn trượt</p>
+					</div>
+					<div  class="fix-clear"></div>
+				</div>
+			</div>
+
+			<div class="panel" data-color="yellow">
+				<div class="fix-article">
+					<div class="box-article">
+						<div class="slide">
+						<img src="images/5231153_2_3L.jpg" alt="">
+					</div>
+				</div>
+					<div class="box-article">
+						<p>Thiết kế bánh tròn và lốp mềm hoàn hảo để sử dụng trong phòng hay ngoài trời cho trẻ</p>
+					</div>
+					<div  class="fix-clear"></div>
+				</div>
+			</div>
+
+			<div class="panel" data-color="orange">
+		  		<div class="fix-article">
+					<div class="box-article">
+						<div class="slide">
+						<img src="images/Rekomendasi_Sepeda_anak_D_Bike_mini__Pink___Kids_design_awar.jpg" alt="">
+					</div>
+				</div>
+					<div class="box-article">
+						<p>Màu sắc trẻ trung với 4 màu: xanh, hồng, trắng và vàng phù hợp trẻ em</p>
+					</div>
+					<div  class="fix-clear"></div>
+				</div>
+			</div>
+
+			<div class="panel" data-color="orange">
+		  		<div class="fix-article">
+					<div class="box-article">
+						<div class="slide">
+						<img src="images/xe-thang-bang-happy-baby-1500706851-1208758-818ebf8c95152ad8d8ff667b292e6c24.jpg" alt="">
+					</div>
+				</div>
+					<div class="box-article">
+						<p>Chiếc xe sẽ thích hợp cho chiếc xe đạp đầu tiên của trẻ mới biết đi hoặc làm quà tặng cho em bé</p>
+					</div>
+					<div  class="fix-clear"></div>
+				</div>
+			</div>
+		
+			<div class="article">
+			<div class="top">
+				<div class="box">
+					<h3>TEXT WIDGET</h3>
+					<p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+				</div>
+				<div class="box">
+					<h3>TWITTER WIDGET</h3>
+					<p>@ericafustero Why thank you. Your work looks awesome by the way! @treemelody
+					</p>
+					<p><i>19 days ago</i></p>
+					<p>@roymarvelous You can seek a refund through TF if it is not as advertised - but it is :)
+					</p>
+					<p><i>21 days ago</i></p>	
+				</div>
+				<div class="box">
+					<h3>FLICKR WIDGET</h3>
+					<div class="nc">
+					<img src="image/8.jpg" alt="">
+					<img src="image/9.jpg" alt="">
+					<img src="image/11.jpg" alt="">
+					<img src="image/12.jpg" alt="">
+					<img src="image/13.jpg" alt="">
+					<img src="image/14.jpg" alt="">
+					</div>
+				</div>
+				<div class="fixx"></div>
+			</div>
+
+			<div class="bot">
+				<div class="box">
+				<input type="text" placeholder="Enter email for newsleter" name="">
+				<button type="submit" class="fa fa-chevron-right"></button>
+
+				<ul>
+					<li><a class="fa fa-facebook" href=""></a></li>
+					<li><a class="fa fa-twitter" href=""></a></li>
+					<li><a class="fa fa-google-plus" href=""></a></li>
+					<li><a class="fa fa-instagram" href=""></a></li>
+					<li><a class="fa fa-facebook" href=""></a></li>
+				</ul>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="fix">
+				<div class="g">
+				<p>Copyright ©  2018. <br>
+	             Designed by Hồng Quân. </p>
+				
+				<ul>
+					<li><a class="" href="">Home</a></li><span>/</span>
+					<li><a class="" href="">Support</a></li><span>/</span>
+					<li><a class="" href="">Terms and Conditions</a></li><span>/</span>
+					<li><a class="" href="">Faqs</a></li><span>/</span>
+					<li><a class="" href="">Contact us</a></li>
+				</ul>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+</body>
+</html>

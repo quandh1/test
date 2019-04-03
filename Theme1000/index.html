@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+	<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+
+
+
+	<script>
+		$(window).scroll(function() {
+  
+  // selectors
+  var $window = $(window),
+      $body = $('body'),
+      $panel = $('.panel');
+  
+  // Change 33% earlier than scroll position so colour is there when you arrive.
+  var scroll = $window.scrollTop() + ($window.height() / 3);
+ 
+  $panel.each(function () {
+    var $this = $(this);
+    if ($this.position().top <= scroll && $this.position().top + $this.height() > scroll) {
+      $panel.removeClass(function (index, css) {
+        return (css.match (/(^|\s)color-\S+/g) || []).join(' ');
+      });
+      $this.addClass('color-' + $(this).data('color'));
+    }
+  });    
+  
+	}).scroll();
+	</script>
+</head>
+<body>
+	<div class="wapper">
+		<div class="top">
+			<div class="fix-top">
+				<ul>
+					<li><a class="fa fa-facebook" href=""></a></li>
+					<li><a class="fa fa-twitter" href=""></a></li>
+					<li><a class="fa fa-youtube" href=""></a></li>
+					<li><a class="fa fa-google-plus" href=""></a></li>
+					<li><a class="fa fa-tumblr" href=""></a></li>
+					<div class="login">
+						<ul>
+							<li><a href="">Đăng Nhập</a></li>
+							<li><a href="">Đăng Ký</a></li>
+						</ul>
+					</div>
+				</ul>
+
+			</div>
+		</div>
+	</div>
+
+	<nav>
+		<div class="fix-nav">
+			<div class="logo">
+				<h2>DAISY</h2>
+				<p>MARC JACOBS</p>
+			</div>
+			<ul>
+				<li><a href="" title="">TRANG CHỦ</a></li>
+				<li><a href="" title="">GIỚI THIỆU</a></li>
+				<li><a href="" title="">SẢN PHẨM</a></li>
+				<li><a href="" title="">LIÊN HỆ</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="baner">
+		<div class="fix-baner">
+			<img src="images/banner_fragrance10off_1376_230.jpg" alt="">
+			<div class="text-baner">
+				<p>DAISY MARC JACOBS</p>
+				<p>Phiên bản mới của <b>DAISY</b> truyền thống</p>
+				<a href="">Mua Ngay</a>
+			</div>
+		</div>
+	</div>
+	<section>
+		<div class="fix-section">
+			<h2>PERFUME</h2>
+			<div class="top-section">
+				<div class="box">
+				<img src="images/s.png" alt="">
+				</div>
+				<div class="box">
+					<p class="title">
+						Nước Hoa Marc Jacobs Daisy Eau De Parfum Women - Perfume168
+					</p>
+					<P class="fill">Thông tin chi tiết</P>
+					<p class="content"><span class="cold">Nhãn hiệu</span><span>Nước hoa Marc Jacobs</span></p>
+					<p class="content"><span class="cold">Xuất xứ</span><span>Pháp</span></p>
+					<p class="content"><span class="cold">Nhóm nước hoa</span><span>Hương hoa cỏ Gỗ - Xạ hương</span></p>
+					<p class="content"><span class="cold">Độ lưu hương</span><span>Tạm ổn - 3 giờ đến 6 giờ</span></p>
+					<p class="content"><span class="cold">Độ toả hương</span><span>Gần - Toả hương trong vòng một cánh tay</span></p>
+					<p class="content"><span class="cold">Thời điểm khuyên dùng</span><span>Ngày, Đêm, Xuân, Hạ</span></p>
+					<p class="content"><span class="cold">Phong cách</span><span>Nữ tính, gợi cảm, tươi tắn</span></p>
+					<p class="content"><span class="cold">Hương đầu</span><span>Quả bưởi huyết, Lá hoa tím, Dâu dại</span></p>
+					<p class="content"><span class="cold">Hương giữa</span><span>Hoa sơn chi, Hoa tím, Hoa nhài</span></p>
+					<p class="content"><span class="cold">Hương cuối</span><span>Xạ hương, Hương gỗ trắng, Hương Va ni</span></p>
+					<p class="content"><span class="cold">Tổng quan</span><span>Hương thơm thích hợp cho việc sử dụng vào ban ngày, đặc biệt là vào mùa xuân. Mùi hương lý tưởng cho những lúc đi làm hoặc đi chơi mua sắm cùng bạn bè.</span></p>
+				</div>
+				<div  class="fix-clear"></div>
+			</div>
+			<hr>
+			<div class="article">
+				
+			</div>
+			<div  class="fix-clear"></div>
+		</div>
+	</section>
+	
+	<div class="panel" data-color="violet">
+	 	 <div class="fix-article">
+			<div class="box-article">
+				<div class="slide">
+					<button  type="button"><i style="font-size: 50px;cursor: pointer;" href=""  class="fa fa-angle-right"></i></button>
+				<img src="images/y.jpg" alt="">
+				<img src="images/y.jpg" alt="">
+				<img src="images/y.jpg" alt="">
+				</div>
+			</div>
+			<div class="box-article">
+				<p>Phiên bản nước hoa Marc Jacobs Daisy Eau De Parfum là sản phẩm nước hoa cao cấp dành cho phái nữ của <a href=""> thương hiệu Marc Jacobs </a> và đã được ra đời vào năm 2008 bởi bàn tay điều chế tài ba của Alberto Morillas. Các nốt hương trong phiên bản Daisy gốc vẫn được giữ nguyên, nhưng có phần đậm đặc hơn.</p>
+			</div>
+			<div  class="fix-clear"></div>
+		 </div>
+	</div>
+
+	<div class="panel" data-color="indigo">
+ 	 	<div class="fix-article">
+			<div class="box-article">
+				<div class="slide">
+					<button  type="button"><i style="font-size: 50px;cursor: pointer;" href=""  class="fa fa-angle-right"></i></button>
+				<img src="images/get.jpg" alt="">
+			</div>
+			</div>
+			<div class="box-article">
+				<p>Ngay từ khi mở nắp chai <a href=""> nước hoa </a> Marc Jacobs Daisy Eau De Parfum, ta có thể cảm nhận được nét tươi mát, nữ tính kèm theo một chút thơ ngây, vui tươi từ lớp hương đầu được chiết xuất từ dâu rừng, lá violet và bưởi huyết. Ngay sau đó, tại lớp hương giữa, hương hoa cổ điển từ violet, nhẹ nhàng từ hoa nhài và hoa dành dành được tôn lên làm chủ đạo. Và đọng lại ở lớp hương cuối, xạ hương cùng với hương vani và gỗ đã tôn lên sự tinh tế xem lẫn một chút sự phá cách hiện đại cùng hương cổ điển của <a href=""> nước hoa nữ </a> Marc Jacobs Daisy Eau De Parfum. </p>
+			</div>
+			<div  class="fix-clear"></div>
+		</div>
+	</div>
+
+	<div class="panel" data-color="yellow">
+		<div class="fix-article">
+			<div class="box-article">
+				<div class="slide">
+					<button  type="button"><i style="font-size: 50px;cursor: pointer;" href=""  class="fa fa-angle-right"></i></button>
+				<img src="images/53d4994a2428e718f3ee325e479af70a.jpg" alt="">
+			</div>
+		</div>
+			<div class="box-article">
+				<p>Chai nước hoa mang thiết kế giống hệt với phiên bản Daisy gốc, nhưng thân chai mang một màu đen tuyền, cùng với nắp chai tạo hình hoa cúc mạ vàng trong thật bắt mắt.</p>
+			</div>
+			<div  class="fix-clear"></div>
+		</div>
+	</div>
+
+	<div class="panel" data-color="orange">
+  		<div class="fix-article">
+			<div class="box-article">
+				<div class="slide">
+					<button  type="button"><i style="font-size: 50px;cursor: pointer;" href=""  class="fa fa-angle-right"></i></button>
+				<img src="images/images.jpg" alt="">
+			</div>
+		</div>
+			<div class="box-article">
+				<p>Dòng <a href=""> nước hoa </a> này tuy mang đậm bản sắc của dòng Daisy phiên bản gốc nhưng chúng đã được pha một chút trưởng thành, chính chắn hơn trong mùi hương. Đây sẽ dòng sản phẩm tuyệt vời nằm trong những sự lựa chọn hàng đầu của các bạn nữ ưa chuộng sự trẻ trung pha lẫn một chút trưởng thành. Chúng sẽ làm bạn trông như một người phụ nữ chớm bước qua tuổi trưởng thành. Đặc biệt, Marc Jacobs Daisy Eau De Parfum sẽ làm tốt nhiệm vụ của chúng khi được bạn sử dụng trong mùa xuân hoặc hè.</p>
+			</div>
+			<div  class="fix-clear"></div>
+		</div>
+	</div>
+	
+	<footer>
+		<div class="top">
+			<div class="fix-bot">
+					<div class="box">
+						<h3>LIÊN KẾT</h3>
+						<ul>
+							<li><a href="">Trang chủ</a></li>
+							<li><a href="">Nước hoa nam</a></li>
+							<li><a href="">Nước hoa nữ</a></li>
+						</ul>
+					</div>
+
+					<div class="box">
+						<h3>VỀ CHÚNG TÔI</h3>
+						<ul>
+							<li><p>Hàng chính hãng xách tay trực tiếp từ Store Pháp, US, UK... Bảo hành trọn đời sản phẩm sẵn sàng đổi trả hoặc hoàn tiền nếu không hài lòng.</p></li>
+							<li><p>Đặt hàng và thu tiền tận nơi toàn quốc <i>0978.71.71.04</i></p></li>
+						</ul>
+					</div>
+
+					<div class="box">
+						<h3>MUA HÀNG</h3>
+						<ul>
+							<li><a href="">Hướng dẫn mua hàng</a></li>
+							<li><a href="">Thanh toán</a></li>
+							<li><a href="">Đổi trả</a></li>
+							<li><a href="">Quy định & chính sách</a></li>
+						</ul>
+					</div>
+					<div  class="fix-clear"></div>
+			</div>
+		</div>
+		<div class="fix-footer">
+		<div class="bot-footer">
+			<p>© 2018 Nước hoa xách tay · Design by: <span> Hồng Quân </span></p>
+		</div>
+		</div>
+	</footer>
+</body>
+</html>
